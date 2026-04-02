@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/a91982/Work/Resume Project/Fraud Detection System/producer.py", line 11, in <module>
+    from kafka import KafkaProducer
+  File "/Users/a91982/Work/Resume Project/Fraud Detection System/.venv/lib/python3.14/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.consumer import KafkaConsumer
+  File "/Users/a91982/Work/Resume Project/Fraud Detection System/.venv/lib/python3.14/site-packages/kafka/consumer/__init__.py", line 3, in <module>
+    from kafka.consumer.group import KafkaConsumer
+  File "/Users/a91982/Work/Resume Project/Fraud Detection System/.venv/lib/python3.14/site-packages/kafka/consumer/group.py", line 13, in <module>
+    from kafka.consumer.fetcher import Fetcher
+  File "/Users/a91982/Work/Resume Project/Fraud Detection System/.venv/lib/python3.14/site-packages/kafka/consumer/fetcher.py", line 19, in <module>
+    from kafka.record import MemoryRecords
+  File "/Users/a91982/Work/Resume Project/Fraud Detection System/.venv/lib/python3.14/site-packages/kafka/record/__init__.py", line 1, in <module>
+    from kafka.record.memory_records import MemoryRecords, MemoryRecordsBuilder
+  File "/Users/a91982/Work/Resume Project/Fraud Detection System/.venv/lib/python3.14/site-packages/kafka/record/memory_records.py", line 27, in <module>
+    from kafka.record.legacy_records import LegacyRecordBatch, LegacyRecordBatchBuilder
+  File "/Users/a91982/Work/Resume Project/Fraud Detection System/.venv/lib/python3.14/site-packages/kafka/record/legacy_records.py", line 50, in <module>
+    from kafka.codec import (
+    ...<2 lines>...
+    )
+  File "/Users/a91982/Work/Resume Project/Fraud Detection System/.venv/lib/python3.14/site-packages/kafka/codec.py", line 9, in <module>
+    from kafka.vendor.six.moves import range
+ModuleNotFoundError: No module named 'kafka.vendor.six.moves'

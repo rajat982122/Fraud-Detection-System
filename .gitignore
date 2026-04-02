@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+data/*.csv
+!data/.gitkeep
+
+artifacts/*.pkl
+artifacts/*.csv
+artifacts/*.json
+!artifacts/.gitkeep
+
+mysql_data/
+grafana_data/

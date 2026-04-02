@@ -1,0 +1,45 @@
+## This is Normal Case
+{
+  "TransactionID": 100001,
+  "TransactionAmt": 42.50,
+  "ProductCD": "H",
+  "card1": 11020,
+  "card2": 245,
+  "card3": 150,
+  "card4": "visa",
+  "card5": 180,
+  "card6": "debit",
+  "P_emaildomain": "gmail.com",
+  "R_emaildomain": "gmail.com",
+  "V1": 0.10,
+  "V2": -0.20,
+  "V3": 0.30,
+  "V7": 0.15,
+  "V14": 0.20,
+  "V21": 0.10
+}
+
+
+
+## This is Fraud Case
+{
+  "TransactionID": 100002,
+  "TransactionAmt": 1850.75,
+  "ProductCD": "C",
+  "card1": 18950,
+  "card2": 580,
+  "card3": 150,
+  "card4": "discover",
+  "card5": 295,
+  "card6": "credit",
+  "P_emaildomain": "anonymous.com",
+  "R_emaildomain": "gmail.com",
+  "V1": 2.40,
+  "V2": 1.90,
+  "V3": -3.10,
+  "V7": 3.60,
+  "V14": 2.80,
+  "V21": -2.40
+}
+
+
