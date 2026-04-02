@@ -58,3 +58,4 @@ INFO:     127.0.0.1:54522 - "GET /monitor-data HTTP/1.1" 200 OK
 INFO:     127.0.0.1:54522 - "GET /monitor-data HTTP/1.1" 200 OK
 INFO:     127.0.0.1:54522 - "GET /monitor-data HTTP/1.1" 200 OK
 INFO:     127.0.0.1:54573 - "GET /monitor-data HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54600 - "GET /monitor-data HTTP/1.1" 200 OK
